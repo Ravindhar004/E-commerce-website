@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nastra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ========== Start nav-bar ========== -->
+    <nav class="navbar">
+      <h1>Nastra</h1>
+
+      <div class="nav-list">
+        <ul class="nav-links">
+          <li class="nav-link"><a href="index.html">Home</a></li>
+          <li class="nav-link"><a href="collection.html">Collection</a></li>
+          <li class="nav-link">Contact</li>
+        </ul>
+      </div>
+
+      <div class="navbar-menu-toggle" onclick="shownavbar()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <!-- ========== End nav-bar ========== -->
+
+    <!-- ========== Start side navbar ========== -->
+    <div class="side-navbar">
+      <p class="xmark" style="text-align: right" onclick="closenavbar()">
+        <i class="fa-solid fa-xmark"></i>
+      </p>
+      <div class="side-navbar-links">
+        <ul class="side-nav-links">
+          <a href="index.html"><li class="side-nav-link">Home</li></a>
+
+          <a href="collection.html"><li class="side-nav-link">Collection</li></a>
+          <li class="side-nav-link">Contact</li>
+        </ul>
+      </div>
+    </div>
+    <!-- ========== End side navbar ========== -->
+
+    <!-- ========== Start header ========== -->
+    <div class="header">
+      <div>
+        <h2>Level up your style</h2>
+        <p>with your stunning collection</p>
+        <button class="header-button">Shop now</button>
+      </div>
+
+      <div>
+        <img
+          class="header-img"
+          src="https://source.unsplash.com/random/300x300/?fashion"
+          alt="image"
+        />
+      </div>
+    </div>
+    <!-- service -->
+    <div class="service">
+      <div class="service-container-1">
+        <div>
+          <h2>we provide best</h2>
+          <h2>customer Experience</h2>
+        </div>
+        <div>
+          <p>
+            <span class="bike-emoji">🏍</span>|| we ensure that our customer have
+            the best shopping Experience
+          </p>
+        </div>
+      </div>
+
+      <div class="service-container-2">
+        <div>
+          <i class="fa-regular fa-face-smile"></i>
+          <h4>satisfaction guarantee</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. cum
+            recusandae quae delectus aut. Magni, nisi corrupti!
+          </p>
+        </div>
+
+        <div>
+          <i class="fa-regular fa-face-smile"></i>
+          <h4>New Arrival EveryDay</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. cum
+            recusandae quae delectus aut. Magni, nisi corrupti!
+          </p>
+        </div>
+
+        <div>
+          <i class="fa-regular fa-face-smile"></i>
+          <h4>Fast and Free Shipping</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. cum
+            recusandae quae delectus aut. Magni, nisi corrupti!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-section">
+      <form action="" class="product-search">
+        <input type="text" id="search" placeholder="Search"  class="onkeyup(event)"/>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </form>
+
+      <div class="products" id="products">
+        <div class="product-box">
+          <img
+            class="header-img"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIP144pfqxJ4ZnF9mHUIaZKCaznmeBlaf45A&usqp=CAU"
+            alt="image" width="82%" height="75%"
+          />
+          <p>Green Shirt</p>
+        </div>
+        <div class="product-box">
+          <img
+            class="header-img"
+            src="https://imdarji.in/cdn/shop/products/3_292083c4-2a79-400f-8045-fd7460eb10d5_800x.jpg?v=1650533856"
+            alt="image" width="80%" height="75%"
+          />
+          <p>Black Shirt</p>
+        </div>
+        <div class="product-box">
+          <img
+            class="header-img"
+            src="https://assets.ajio.com/medias/sys_master/root/20231205/EK2r/656ed440ddf7791519b1e6b9/-473Wx593H-461119105-blue-MODEL2.jpg"
+            alt="image" width="80%" height="75%"
+          />
+          <p>Checked Shirt</p>
+        </div>
+        <div class="product-box">
+          <img
+            class="header-img"
+            src="https://assets.ajio.com/medias/sys_master/root/20221114/XDCj/63721c70aeb269659c895e49/-473Wx593H-469369905-red-MODEL2.jpg"
+            alt="image" width="80%" height="75%"
+          />
+          
+          <p>Red Shirt</p>
+        </div>
+        <div class="product-box">
+          <img
+            class="header-img"
+            src="https://taperedmenswear.com/cdn/shop/articles/How_to_stretch_a_shirt.jpg?v=1620806946"
+            alt="image" width="80%" height="75%"
+          />
+          <p>Grey Shirt</p>
+        </div>
+        <div class="product-box">
+          <img
+            class="header-img"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtPwB-XK9Rx_71PaO7fnHCsBECRk8My9Az0IfKKfO2OL65fP6hMFWwT4jh2Ev77OHTx8k&usqp=CAU"
+            alt="image" width="80%" height="75%"
+          />
+          <p>Blue Shirt</p>
+        </div>
+        <div class="product-box">
+          <img
+            class="header-img"
+            src="https://assets.ajio.com/medias/sys_master/root/20231205/LBwK/656ed464afa4cf41f5b4f71c/-473Wx593H-462323964-white-MODEL.jpg"
+            alt="image" width="80%" height="75%"
+          />
+          <p>White Shirt</p>
+        </div>
+        <div class="product-box">
+          <img
+            class="header-img"
+            src="https://prod.saralifestyle.com/Images/Products/CategoryImage/cbe4b195e08e430c97f8f6e48b9cad2f.jpeg"
+            alt="image" width="80%" height="75%"
+          />
+          <p>Flannel Shirt</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div style="padding: 25px">
+      <h2>New Arrival</h2>
+      <div class="new-arrival">
+        <div class="new-arrival-container">
+          <img
+            class="header-img"
+            src="https://source.unsplash.com/random/200x200/?fashion?1"
+            alt="image"
+          />
+          <button>shop now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+        <div class="new-arrival-container">
+          <img
+            class="header-img"
+            src="https://source.unsplash.com/random/200x200/?fashion?2"
+            alt="image"
+          />
+          <button>shop now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+        <div class="new-arrival-container">
+          <img
+            class="header-img"
+            src="https://source.unsplash.com/random/200x200/?fashion?3"
+            alt="image"
+          />
+          <button>shop now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+        <div class="new-arrival-container">
+          <img
+            class="header-img"
+            src="https://source.unsplash.com/random/200x200/?fashion?4"
+            alt="image"
+          />
+          <button>shop now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding: 25px">
+      <h2>Most Wanted</h2>
+      <div class="new-arrival">
+        <div class="new-arrival-container">
+          <img
+            class="header-img"
+            src="https://source.unsplash.com/random/200x200/?fashion?5"
+            alt="image"
+          />
+          <button>shop now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+        <div class="new-arrival-container">
+          <img
+            class="header-img"
+            src="https://source.unsplash.com/random/200x200/?fashion?6"
+            alt="image"
+          />
+          <button>shop now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+        <div class="new-arrival-container">
+          <img
+            class="header-img"
+            src="https://source.unsplash.com/random/200x200/?fashion?7"
+            alt="image"
+          />
+          <button>shop now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+        <div class="new-arrival-container">
+          <img
+            class="header-img"
+            src="https://source.unsplash.com/random/200x200/?fashion?8"
+            alt="image"
+          />
+          <button>shop now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+    <!-- ========== End header ========== -->
+
+    <!-- ========== Start footer ========== -->
+
+    <div class="news">
+      <h2>Join our news letter</h2>
+      <p>
+        Signup for our email newsletter to get exclusive discount and update
+      </p>
+      <div>
+        <input type="text" class="search" />
+      </div>
+      <div>
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <!-- ========== End footer ========== -->
+
+    <!-- ========== Start poduct ========== -->
+     
+   
+
+
+    <!-- ========== End poduct ========== -->
+
+    <!-- ========== Start footer info ========== -->
+
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-box-1">
+          <h2 class="headinf-text">Nastra</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            rem hic eaque laborum expedita optio,numquam quibusdam sunt
+            sapiente!
+          </p>
+          <div class="footer-icon-container">
+            <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffffff"></i>
+            <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+          </div>
+        </div>
+      </div>
+      <p>@ 2024 Nastra.com</p>
+    </div>
+
+    <!-- ========== End footer info========== -->
+
+    <script src="./script.js"></script>
+   
+  </body>
+</html>
